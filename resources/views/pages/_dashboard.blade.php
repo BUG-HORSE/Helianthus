@@ -1,7 +1,7 @@
-<h1>Welcome, {!! Auth::user()->displayName !!}!</h1>
+<h1>Greetings, {!! Auth::user()->displayName !!}!</h1>
 <div class="card mb-4 timestamp">
     <div class="card-body">
-        <i class="far fa-clock"></i> {!! format_date(Carbon\Carbon::now()) !!}
+        It is currently {!! format_date(Carbon\Carbon::now()) !!} in Astrae.
     </div>
 </div>
 <div class="row">
