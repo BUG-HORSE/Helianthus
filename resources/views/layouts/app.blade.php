@@ -86,7 +86,7 @@
 </head>
 
 <body>
-    <div id="app">
+    <div id="app" style="background-image: url('{{ asset('images/summer.png') }}');">
         <!-- <div class="site-header-image" id="header" style="background-image: url('{{ asset('images/header.png') }}');"></div> -->
         @include('layouts._nav')
         @if (View::hasSection('sidebar'))
@@ -99,7 +99,7 @@
                 <div class="sidebar col-lg-2" id="sidebar">
                     @yield('sidebar')
                 </div>
-                <div class="main-content col-12 col-lg-11 mx-auto p-4">
+                <div class="main-content col-lg-8 p-4">
                     <div>
                         @if (Settings::get('is_maintenance_mode'))
                             <div class="alert alert-secondary">
@@ -196,5 +196,4 @@
         </script>
     </div>
 </body>
-
 </html>
