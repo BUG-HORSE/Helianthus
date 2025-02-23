@@ -55,7 +55,7 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="loreDropdown">
-                            <a class="dropdown-item" href="{{ url('world') }}">
+                            <a class="dropdown-item" href="{{ url('guidebook') }}">
                                 Guidebook
                             </a>
                         </div>
