@@ -4,7 +4,7 @@
         <div class="card mb-4 timestamp">
             <div class="card-body">
                 <h5 class="card-title text-center">Dashboard</h5>
-                It is currently {!! format_date(Carbon\Carbon::now()) !!} in Astrae.
+                It is currently {!! format_date(Carbon\Carbon::now()) !!} in Astrea.
                 <h5 class="card-title text-center mt-3">Recent news</h5>
                 Recent news here
             </div>

@@ -97,6 +97,8 @@ Route::group(['prefix' => 'myo', 'namespace' => 'Characters'], function () {
 **************************************************************************************************/
 Route::group(['prefix' => 'guidebook'], function () {
     Route::get('/', 'GuidebookController@getIndex');
+    Route::get('about', 'GuidebookController@getAbout');
+    Route::get('traits-overview', 'GuidebookController@getTraitsOverview');
 });
 
 /**************************************************************************************************

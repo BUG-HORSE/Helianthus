@@ -35,4 +35,26 @@
     {
         return view('guidebook.index');
     }
+
+    /**
+     * Shows the index page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+
+    public function getAbout()
+    {
+        return view('guidebook.about');
+    }
+
+    /**
+     * Shows the index page.
+     *
+     * @return \Illuminate\Contracts\Support\Renderable
+     */
+
+    public function getTraitsOverview()
+    {
+        return view('guidebook.traits_overview');
+    }
 }

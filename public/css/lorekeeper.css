@@ -46,6 +46,16 @@ a:hover {
     text-decoration: none;
 }
 
+p {
+    font-size: 15px;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+
+ul {
+    font-size: 15px;
+}
+
 body {
     background-color: transparent;
     font-family: Lato, sans-serif;
