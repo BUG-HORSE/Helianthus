@@ -13,6 +13,15 @@
     </div>
 
     <hr>
+    <h4 class="mb-0">Art assets</h4>
+    <p class="mb-2">These artists have created art assets that are used on the Helianthus website.</p>
+    <div class="extensions row no-gutters">
+        <p class="mb-0 col-md-4">
+            <strong>Lineart in the trait index</strong> by <a href="https://toyhou.se/vegas">Vegas</a>
+        </p>
+    </div>
+
+    <hr>
 
     <h4 class="mb-0">Core Extensions</h4>
     <p class="mb-2">These extensions were coded by the Lorekeeper community and are now a part of core Lorekeeper.</p>
